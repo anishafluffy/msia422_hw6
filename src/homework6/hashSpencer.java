@@ -8,7 +8,6 @@ import java.io.IOException;
 public class hashSpencer {
 	//main
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		String pathname = "./input.txt";
 		File file = new File(pathname);
 		
@@ -20,14 +19,14 @@ public class hashSpencer {
 			String line = null; // don't skip header
 			while ((line = bufferedReader.readLine()) != null) 
 			{
-				//names[i] = line.split(",")[0]; 
 				names[i] = line;
 				i++;
 			}
 		}
-		for (int k = 0; k < names.length; k++)
+		//for (int k = 0; k < names.length; k++)
+		for (int k = 0; k < 5; k++)
 		{
-			System.out.println(names[k]);
+			System.out.println(names[k].hashCode());
 		}
 		
 	}
