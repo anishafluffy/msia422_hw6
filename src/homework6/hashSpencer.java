@@ -9,10 +9,10 @@ public class hashSpencer {
 	//main
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		String pathname = "../input.txt";
+		String pathname = "./input.txt";
 		File file = new File(pathname);
 		
-		String[] names = new String[14];
+		String[] names = new String[200];
 		
 		int i = 0; 
 		try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) 
@@ -25,6 +25,11 @@ public class hashSpencer {
 				i++;
 			}
 		}
+		for (int k = 0; k < names.length; k++)
+		{
+			System.out.println(names[k]);
+		}
+		
 	}
 		
 }
