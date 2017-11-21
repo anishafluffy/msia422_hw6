@@ -41,7 +41,7 @@ public class hashArray
 		
 		for (String s : output)
 		{
-			System.out.println(s);
+			System.out.println(hash[10]);
 		}
 		
 	}

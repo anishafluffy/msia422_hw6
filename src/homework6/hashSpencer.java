@@ -9,24 +9,23 @@ import java.util.*;
 public class hashSpencer {
 	//main
 	public static void main(String[] args) throws IOException {
+		int n = 100;
 		String pathname = "./input.txt";
 		File file = new File(pathname);
 		
-		//create names array
-		String[] names = new String[200];
-		int i = 0; 
+		//create names arraylist
+		ArrayList<String> names = new ArrayList<>();
 		try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
-			String line = null; // don't skip header
+			String line; 
 			while ((line = bufferedReader.readLine()) != null) {
-				names[i] = line;
-				i++;
+				names.add(line);
 				}
-			}
+			}		
 		
 		//create hash arraylist
 		ArrayList<Integer> hash = new ArrayList<Integer>(); 
-		for (int k = 0; k < names.length; k++) {
-				hash.add(java.lang.Math.abs(names[k].hashCode() % 100)); 
+		for (int k = 0; k < names.size(); k++) {
+				hash.add(java.lang.Math.abs(names.get(k).hashCode() % n)); 
 				}
 		
 		//create map with key value pairs
@@ -38,13 +37,13 @@ public class hashSpencer {
 		        hm.put(h, new ArrayList<String>());
 		    	}
 			//next, add the name to the array list
-		    hm.get(h).add(names[k]);
+		    hm.get(h).add(names.get(k));
 		    k++;
 		}
+
 		//System.out.println(hm);
 		
-        System.out.println((int) 'a');
-		
+        //System.out.println((int) 'a');
 	}
-		
+
 }
