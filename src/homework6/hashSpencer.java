@@ -41,12 +41,9 @@ public class hashSpencer {
 		    hm.get(h).add(names[k]);
 		    k++;
 		}
-		System.out.println(hm);
-//
-//		    
-//		}
+		//System.out.println(hm);
 		
-        
+        System.out.println((int) 'a');
 		
 	}
 		
