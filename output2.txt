@@ -1,0 +1,100 @@
+0 Blair
+1 Maurine, Vallie, Lizette
+2 Rolland
+3 EMPTY LINE...
+4 Lenna, Erick, Rosio, Lemuel
+5 Lorrie, Cheryl
+6 Maryann, Claribel, Andra, Belen
+7 Veronika, Brock, Amber, Delmy
+8 Pamella
+9 Arlene, Joesph
+10 Scarlet
+11 Tonette, Lettie, Reita
+12 EMPTY LINE...
+13 Albina, Stephaine, Howard, Clay, Jettie
+14 Brandon
+15 Art
+16 Deeanna
+17 Elvera, Twana, Kimbery
+18 Graciela, Malinda, Angella
+19 Myra, Rolande, Melodie
+20 Evangelina
+21 Cecily, Theola, Jolanda
+22 Francine, Nana
+23 Penney, Cory
+24 Estrella, Benton
+25 Ty, Merlyn
+26 EMPTY LINE...
+27 EMPTY LINE...
+28 Micaela
+29 Johnetta, Moon, Devora, Valentin
+30 Sheridan
+31 Talia
+32 Abel, Bulah
+33 Ilene, Gracia
+34 EMPTY LINE...
+35 Roxane
+36 Elly, Donte
+37 Devorah, Jesusa
+38 Annabelle
+39 Rozella
+40 Carissa
+41 EMPTY LINE...
+42 Timothy, Lucina
+43 Kati, Laurel, Audra
+44 Mattie, Fatima, Melissa, Sylvia, Teri
+45 Solange, Jamal, Bobbye, Glory
+46 Jina, Elza, Eun, Merilyn
+47 Dierdre, Carmela
+48 Lai
+49 Kris, Cyndy, Laticia, Layla
+50 Bette, Daren
+51 Leota, Shenika, Novella
+52 Lindsey, Gregoria, Latrice
+53 Lavera, Lezlie, Carin
+54 Blondell, Becky, Candida
+55 Gearldine
+56 Tyra
+57 Tawna, Alease, Junita
+58 Yuki
+59 EMPTY LINE...
+60 Natalie
+61 Simona, Tamar
+62 Valentine, Kallie, Xuan, Yolando
+63 Herman, Van
+64 Sage, Carma
+65 Mitsue, Chau
+66 Georgene
+67 Arlette, Wilda, Nelida
+68 Carmelina
+69 Emerson
+70 Kiley, Dominque
+71 Jose
+72 EMPTY LINE...
+73 Josephine, Meaghan, Ezekiel, Irma, Karan
+74 Alisha, Bok
+75 Willard, Louisa, Leatha, Kerry
+76 James
+77 Chanel, Thurman, Beatriz
+78 Willow, Nieves, Ozell
+79 Sabra, Tammara, Jennifer
+80 EMPTY LINE...
+81 Hillary
+82 Gladys, Marjory
+83 Cammy, Allene, Fannie
+84 Karl, Delisa
+85 Youlanda, Oretha, Larae
+86 Dyan, Viva, Danica, Edna, Shawna, Arminda
+87 Fletcher, Kanisha, Lisha
+88 Rory
+89 Minna, Ammie, Ernie, Fernanda
+90 Barrett
+91 Stephen, Celeste, Tiffiny, Sue, Felicidad
+92 EMPTY LINE...
+93 Marguerita
+94 Dorthy
+95 Alishia, Chantell
+96 EMPTY LINE...
+97 Donette
+98 EMPTY LINE...
+99 Bernardo, Marti

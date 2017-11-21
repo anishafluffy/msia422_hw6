@@ -39,10 +39,13 @@ public class hashArray
 		}
 		
 		
-		for (String s : output)
+		FileWriter writer = new FileWriter("output2.txt"); 
+		for (int i: output.length) 
 		{
-			System.out.println(hash[10]);
+		  writer.write(str);
+		  writer.write("\n");
 		}
+		writer.close();
 		
 	}
 }

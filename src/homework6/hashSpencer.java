@@ -3,7 +3,9 @@ package homework6;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class hashSpencer {
@@ -25,7 +27,7 @@ public class hashSpencer {
 			}
 		}		
 		
-		//create hash arraylist
+		//create hash ArrayList
 		ArrayList<Integer> hash = new ArrayList<Integer>(); 
 		for (int k = 0; k < names.size(); k++) {
 				hash.add(java.lang.Math.abs(names.get(k).hashCode() % n)); 
@@ -43,6 +45,29 @@ public class hashSpencer {
 		    hm.get(h).add(names.get(k));
 		    k++;
 		}
-		System.out.println(hm);
+		
+		//create output array
+		String output[] = new String[n];
+		for (int key : hm.keySet())
+		{
+			output[key] = hm.get(key).toString().replace("[", "").replace("]","").trim();
+		}
+		
+		//export text file
+		FileWriter writer = new FileWriter("output2.txt"); 
+		for (int i = 0; i < Array.getLength(output); i++) 
+		{
+			if (output[i] == null)
+			{
+				writer.write(i + " EMPTY LINE...");
+				writer.write("\n");
+			}
+			else
+			{
+				writer.write(i + " " + output[i]);
+				writer.write("\n");
+			}		  
+		}
+		writer.close();
 	}		
 }
