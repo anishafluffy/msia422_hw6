@@ -23,6 +23,7 @@ public class hashArray
 			while ((line = bufferedReader.readLine()) != null) 
 			{
 				input.add(line);
+				hash.add(java.lang.Math.abs(line.hashCode() % n));
 			}
 		}
 
@@ -32,10 +33,16 @@ public class hashArray
 			output[java.lang.Math.abs(s.hashCode() % n)] = s;
 		}
 		
+		for (int i : hash)
+		{
+			System.out.println(i);
+		}
+		
+		
 		for (String s : output)
 		{
 			System.out.println(s);
 		}
-	
+		
 	}
 }
