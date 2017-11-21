@@ -51,7 +51,9 @@ public class hashSpencer {
 			output[key] = hm.get(key).toString().replace("[", "").replace("]","").trim();
 		}
 		
-		//export text file
+		
+		//export text file and calculate load factor
+		double counter = 0;
 		FileWriter writer = new FileWriter("output2.txt"); 
 		for (int i = 0; i < Array.getLength(output); i++) 
 		{
@@ -59,6 +61,7 @@ public class hashSpencer {
 			{
 				writer.write(i + " EMPTY LINE...");
 				writer.write("\n");
+				counter = counter + 1;
 			}
 			else
 			{
@@ -66,6 +69,8 @@ public class hashSpencer {
 				writer.write("\n");
 			}		  
 		}
+		
+		System.out.print("Load Factor: " + (1 - counter/n));
 		writer.close();
 		in.close();
 	}		
