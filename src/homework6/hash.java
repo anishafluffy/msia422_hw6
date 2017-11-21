@@ -1,3 +1,6 @@
+//Homework 6
+//Spencer Moon & Anisha Dubhashi
+
 package homework6;
 
 import java.io.BufferedReader;
