@@ -15,17 +15,14 @@ public class hashSpencer {
 		String pathname = "./input.txt";
 		File file = new File(pathname);
 		
-		//create names array
+		//create names arraylist
 		ArrayList<String> names = new ArrayList<>();
-		
-		try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) 
-		{
+		try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
 			String line; 
-			while ((line = bufferedReader.readLine()) != null) 
-			{
+			while ((line = bufferedReader.readLine()) != null) {
 				names.add(line);
-			}
-		}		
+				}
+			}		
 		
 		//create hash ArrayList
 		ArrayList<Integer> hash = new ArrayList<Integer>(); 
