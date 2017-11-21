@@ -1,21 +1,22 @@
 package homework6;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.lang.reflect.Array;
 import java.util.*;
+import java.text.*;
+
 
 public class hashSpencer {
 	//main
 	public static void main(String[] args) throws IOException {
-		int n = 100;
+		Scanner in = new Scanner(System.in);
+		System.out.print("Specify size of array: ");
+		int n = in.nextInt();
+
 		String pathname = "./input.txt";
 		File file = new File(pathname);
 		
-		//create names arraylist
+		//create names ArrayList
 		ArrayList<String> names = new ArrayList<>();
 		try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
 			String line; 
@@ -34,7 +35,7 @@ public class hashSpencer {
 		Map<Integer, ArrayList<String>> hm = new HashMap<Integer, ArrayList<String>>();
 		int k = 0;
 		for (Integer h : hash) {
-			//if there is no hash value, add an array list
+			//if there is no hash value, add an ArrayList
 			if(!hm.containsKey(h)) {
 		        hm.put(h, new ArrayList<String>());
 		    	}
@@ -66,5 +67,6 @@ public class hashSpencer {
 			}		  
 		}
 		writer.close();
+		in.close();
 	}		
 }
